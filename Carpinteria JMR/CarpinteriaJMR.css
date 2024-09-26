@@ -1,0 +1,65 @@
+/* Estilos CSS */
+
+body,
+html {
+    background-image: url(./img/Mueble\ salón-Collage-3.jpg);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: burlywood;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: burlywood;
+    border-radius: 10%;
+}
+
+.Boton {
+    width: 15%;
+    margin-top: 0%;
+    margin-left: 42%;
+    background-color: burlywood;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 0;
+}
+
+.Boton:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 0;
+}
+
+.btn-outline-success {
+    color: black;
+    background-color: burlywood;
+    border-color: burlywood;
+}
+
+.btn-outline-success:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+}

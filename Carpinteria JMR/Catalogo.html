@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpinteria JMR</title>
+    <link rel="stylesheet" href="Catalogo.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Catalogo</h1>
+            <h2>Diseño de puertas</h2>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="productos" class="productos">
+
+
+        <div class="producto" data-nombre="Puerta prefabricada" data-precio="200">
+            <img src="/img/Puerta de pino.png" id="img">
+            <h3>Puerta prefabricada</h3>
+            <p>Q.200.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Crocs Sandal" data-precio="30">
+            <img src="/img/aadsf.jpg" alt="Crocs Sandal">
+            <h3>Ropero</h3>
+            <p>Q.1,200.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Crocs Literide" data-precio="50">
+            <img src="" alt="Crocs Literide">
+            <h3>Crocs Literide</h3>
+            <p>$50</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Crocs Literide" data-precio="50">
+            <img src="" alt="Crocs Literide">
+            <h3>Crocs Literide</h3>
+            <p>Q.50.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+    </section>
+
+    <section id="carrito" class="carrito">
+        <h3>Tu carrito</h3>
+        <ul id="lista-carrito"></ul>
+        <p>Total: Q.<span id="total">0</span></p>
+        <button id="comprar-btn" class="btn-comprar">Comprar</button>
+        <!-- Añadimos id "comprar-btn" -->
+    </section>
+
+    <script src="catalogo.js"></script>
+</body>
+
+</html>

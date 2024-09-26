@@ -1,0 +1,11 @@
+    body {
+        background-image: url(./img/Mueble\ salón-Collage-3.jpg);
+        font-family: Arial, sans-serif;
+    }
+    
+    .nt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: burlywood;
+    }
